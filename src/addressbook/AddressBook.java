@@ -42,5 +42,17 @@ public class AddressBook {
             }
         }
     }
+    public Contact getContact(int index) {
+        int objectIndex = -1;
+        for(Contact contact: contacts) {
+            objectIndex++;
+            if(index==objectIndex) {
+                return contact;
+            }
+        }
+        return null;
+    }
 }
+
+
 
