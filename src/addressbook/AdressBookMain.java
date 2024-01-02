@@ -8,6 +8,10 @@ public class AdressBookMain {
         Contact c3 = new Contact("Pranjal", "Khade", "Visava Villa", "Banglore", "Karnataka", 493123, "9590595867", "pranjalkhade@gmail.com");
         AddressBook a1 = new AddressBook();
 
+        a1.addContact(c1);
+        a1.addContact(c2);
+        a1.displayContacts();
+
 
 
     }
